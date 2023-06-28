@@ -1,0 +1,119 @@
+body{
+    background-color: rgba(0, 0, 0, 0.498);
+    overflow: scroll;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.publication{
+    margin-bottom: 50px;
+
+}
+.heading{
+    border: 2px solid black;
+    margin: auto;
+	display: flex;
+    flex-direction: row;
+	justify-content: center;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px;
+    width: 40%;
+	position: center;
+}
+
+.picture {
+    border: 2px solid black;
+    margin: 0px 50px 0px 50px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: center;
+    background: white;
+    width: 40%;
+    height: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  .logo .dots i{
+    font-size: 40px;
+    color: hotpink;
+    font-size: large;
+    padding-top: 20px;
+    vertical-align: middle;
+  }
+  img {
+    display: block;
+    margin: 0 auto;
+    width:100%;
+    height:100%;
+    object-fit:cover;
+  }
+
+.dots#dots{
+    margin-left: auto;
+
+}
+
+.heading div{
+    border: 2px solid black;
+    margin: 5px;
+    align-items: center;
+}
+
+.heading span{
+    align-items: center;
+}
+
+.material-symbols-outlined{
+    position: relative;
+    top: 1px; 
+}
+
+
+.description{
+    text-align: left;
+	padding-left: 12px;
+	padding-top: 3px;
+	font-size: large;
+	height: 80px;
+	overflow: scroll;
+	background-color: white;
+
+}
+
+
+.bottom{
+    border: 2px solid black;
+    margin-left:auto;
+    margin-right:auto;
+	display: flex;
+    flex-direction: column;
+	justify-content: center;
+	height: 100%;
+	background-color: white;
+	border-radius: 3px;
+    width: 40%;
+	position: center;
+    
+}
+
+.icons{
+    border:2px solid black;
+    display: flex;
+    flex-direction: row;
+}
+
+.marker#mark_icon{
+    margin-left:auto;
+}
+
+.people{
+    border:2px solid black;
+    padding: 10px;
+}
+
+.description{
+    border:2px solid black;
+    padding: 10px;
+}
