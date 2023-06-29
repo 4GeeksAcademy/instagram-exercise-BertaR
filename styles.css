@@ -10,20 +10,20 @@ body{
 
 }
 .heading{
-    border: 2px solid black;
+    /* outline: 2px solid black; */
     margin: auto;
 	display: flex;
     flex-direction: row;
-	justify-content: center;
+	/* justify-content: center; */
 	height: 100%;
 	background-color: white;
-	border-radius: 3px;
+	/* border-radius: 3px; */
     width: 40%;
 	position: center;
 }
 
 .picture {
-    border: 2px solid black;
+    /* outline: 2px solid black; */
     margin: 0px 50px 0px 50px;
     border-radius: 3px;
     display: flex;
@@ -35,13 +35,27 @@ body{
     margin: auto;
   }
   
-  .logo .dots i{
+.heading i {
     font-size: 40px;
-    color: hotpink;
-    font-size: large;
-    padding-top: 20px;
+    /* color: hotpink; */
+    /* font-size: large; */
+    padding-top: 17px;
     vertical-align: middle;
-  }
+    margin-left: 15px;
+    /* margin-right: 5px; */
+
+    }
+
+.title{
+    margin-right: auto;
+}
+/* i .fa-ellipsis-vertical{
+    font-size: 40px;
+    padding-top: 10px;
+    vertical-align: middle;
+    margin-left: auto;
+
+} */
   img {
     display: block;
     margin: 0 auto;
@@ -49,21 +63,20 @@ body{
     height:100%;
     object-fit:cover;
   }
+  
 
 .dots#dots{
     margin-left: auto;
+    margin-right: 20px;
 
 }
 
 .heading div{
-    border: 2px solid black;
+    /* outline: 2px solid black; */
     margin: 5px;
     align-items: center;
 }
 
-.heading span{
-    align-items: center;
-}
 
 .material-symbols-outlined{
     position: relative;
@@ -71,20 +84,8 @@ body{
 }
 
 
-.description{
-    text-align: left;
-	padding-left: 12px;
-	padding-top: 3px;
-	font-size: large;
-	height: 80px;
-	overflow: scroll;
-	background-color: white;
-
-}
-
-
 .bottom{
-    border: 2px solid black;
+    /* outline: 2px solid black; */
     margin-left:auto;
     margin-right:auto;
 	display: flex;
@@ -99,21 +100,35 @@ body{
 }
 
 .icons{
-    border:2px solid black;
+    /* outline:2px solid black; */
     display: flex;
     flex-direction: row;
+    padding: 15px 15px 5px 15px;
+    justify-content: space-between;
 }
 
-.marker#mark_icon{
-    margin-left:auto;
-}
+
 
 .people{
-    border:2px solid black;
-    padding: 10px;
+    /* outline:2px solid black; */
+    padding: 20px;
+    padding: 0px 20px 10px 20px;
 }
 
 .description{
-    border:2px solid black;
+    /* outline:2px solid black; */
     padding: 10px;
+}
+
+.fa-bookmark{
+    margin-left: auto;
+}
+
+.fa-heart{
+    margin-left: 5px;
+}
+
+.icons i{
+    font-size: 40px;
+    margin-right:5px;
 }
