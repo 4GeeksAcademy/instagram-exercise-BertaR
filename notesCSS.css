@@ -1,0 +1,118 @@
+/* NORMA 1 Todo lo que está escrito más abaja, GANA a lo que esta escrito más arriba */
+/* NORMA 2 Lo que es mas especifico, GANA a lo que es menos especifico */
+/* Llamar a las cosas en css */
+/* por su etiqueta */
+/* por su clase, puedo ponerselo a muchas cosas*/
+/* Id es un atributo superespecifico, para dar estilos a un solo elemento */
+h1{
+    color:crimson;
+}
+
+.lista1{
+    color:gold;
+}
+
+#superlista{
+    color:lightseagreen;
+}
+
+
+/* body {
+    background-color: crimson;
+} */
+
+/* por su atributo */
+
+/* [type="text"] */
+
+
+/* *************************************************** */
+
+/* Combinar selectores para anadir especificidad */
+
+h2.lista1#superlista{
+    color:orange;
+}
+
+/* Le llamo con su etiqueta, su clase y su id */
+
+/* hablando de padre a hijo */
+
+ol li {
+    color: blue;
+}
+
+/* Estos sumando etiquetas para sumar especificidad */
+
+/* Intentar ir de mas especifico a menos especifico, siempre poner muchas clases y por lo ultimo id, para cosas muy especificas */
+
+/* Box model */
+/* Cualquier caja, por ejemplo un div */
+
+div.box-model{
+    display: block;
+    background-color:hotpink;
+    width:200px;
+    height:100px;
+    padding: 20px;
+    border: 2px solid black;
+    margin: 10px 10px 10px 10px;
+}
+
+span.box-model{
+    display:inline;
+    background-color: pink;
+    width:200px;
+    width: 100px;
+    
+}
+
+span.box-model-especial{
+    display:inline-block;
+    background-color: royalblue;
+    color: white;
+    padding: 50px;
+    width: 200px;
+}
+
+/* en un inline no nos permite ajustar un width o un height */
+/* en una etiqueta en linea, no puedo poner margin, ademas el padding queda muy mal */
+
+/* la diferenciacion es el display */
+
+
+/* DISPLAY FLEX */
+/* Cualquier elemento */
+
+
+div.padre{
+    background-color: hotpink;
+    height: 200px;
+    display:flex;
+    /* por defecto esta en row */
+    /* flex-direction:column; */
+    justify-content: end;
+    justify-content: space-between;
+    justify-content: space-evenly;
+    justify-content: space-around;
+    /* content para alinear en horizontal */
+    align-items: start;
+    align-items: end;
+    align-items: center;
+    /* align-items para alinear en vertical */
+}
+
+div.hijo{
+    background-color: indigo;
+    color: white;
+    border: 2px solid gold;
+    padding: 1px;
+
+}
+
+div.hijo-3 {
+     margin-left:auto; /* Se empuja todo lo que puede en el lado izquierdo */
+}
+
+
+/* que los elementos dentro de una caja quiero que se alinean dentro de una caja de una determinada manera */
